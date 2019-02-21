@@ -161,7 +161,9 @@ using namespace std;
 int main ( )
 {
     const int PLAYER_COUNT = 2;
-
+    
+    const char x_grid[] = "  X 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20";
+    
     string player1_name = "",
            player2_name;
 
@@ -198,6 +200,8 @@ int main ( )
 
 
     }
+    
+    cout << x_grid;
 
            /*
            && player2_name != 'Q' && player1_ships != 'Q'
